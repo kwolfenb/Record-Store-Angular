@@ -1,4 +1,5 @@
-<h2>This album has id number: {{albumId}}</h2>
-<h3>Album Name: {{this.album.title}}</h3>
-<h3>Artist Name: {{this.album.artist}}</h3>
-<h4>Description: {{this.album.description}}</h4>
+<div>
+  <h3>Album Name: {{(albumToDisplay | async)?.title}}</h3>
+  <h3>Artist Name: {{(albumToDisplay | async)?.artist}}</h3>
+  <h4>Description: {{(albumToDisplay | async)?.description}}</h4>
+</div>

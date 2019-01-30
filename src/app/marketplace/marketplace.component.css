@@ -1,0 +1,9 @@
+.panel {
+  border: solid blue 2px;
+  border-radius: 5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 5%;
+  width: 50%;
+  background-color: #cccccc;
+}
