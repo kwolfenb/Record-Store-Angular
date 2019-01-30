@@ -1,3 +1,5 @@
 export class Album {
-  constructor (public title: string, public artist: string, public description: string, public $key: string='') { }
+  constructor (public title: string, public artist: string, public description: string) { }
+  $key: string;
+
 }
